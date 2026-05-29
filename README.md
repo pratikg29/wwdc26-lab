@@ -10,7 +10,7 @@ This repo is a public lab for learning, testing, and sharing new Apple platform 
 
 - Small SwiftUI and Apple platform demos.
 - Notes from Apple sessions, documentation, and sample code.
-- App experiments inspired by WWDC26 technologies.
+- Public writeups about app ideas inspired by WWDC26 technologies.
 - Reusable packages only when a demo becomes useful beyond the lab.
 
 ## Structure
@@ -18,7 +18,7 @@ This repo is a public lab for learning, testing, and sharing new Apple platform 
 ```text
 Notes/       Public notes from Apple sessions and docs
 Demos/       Small focused experiments
-Apps/        App prototypes and larger experiments
+Apps/        Public app concept notes and build logs, not proprietary app code
 Packages/    Reusable Swift packages split from demos
 Resources/   Public screenshots, recordings, and supporting assets
 Templates/   README and demo templates
@@ -44,3 +44,7 @@ Official Apple documentation, sessions, release notes, and sample code are the s
 Code is MIT licensed unless otherwise noted.
 
 Apple names, APIs, documentation, screenshots, session content, trademarks, and platform materials belong to Apple. This repo is an independent learning project and is not affiliated with Apple.
+
+## Product app code
+
+Real app projects that may become products are private by default. This repo can include public notes, progress writeups, screenshots, and extracted demos, but it should not contain proprietary app source code unless a separate decision is made to open source that app.
